@@ -6,7 +6,52 @@
     <title>Dell - Digital Shop</title>
   </head>
   <body>
-    <div id="app"></div>
+    <header class="header">
+      <div class="header__wrap">
+
+        <a class="header__logo" href="#">
+          <img src="/images/logo.png">
+        </a>
+
+
+        <nav class="header__nav">
+          <a href="#">Главная</a>
+          <a href="#">Каталог</a>
+          <a href="#">Новости</a>
+          <a href="#">Наш АСЦ</a>
+          <a href="#">Контакты</a>
+        </nav>
+
+
+        <div class="search-panel">
+          <form class="search-panel__form">
+            <label class="search-panel__label">
+              <img src="/icons/search.svg">
+              <input id="search-input" type="text" name="query">
+            </label>
+          </form>
+        </div>
+
+
+        <div class="header__menu">
+          <div class="menu-button menu-button__user">
+            <span class="badge"></span>
+          </div>
+          <div class="menu-button menu-button__signal">
+            <span class="badge"></span>
+          </div>
+          <div class="menu-button menu-button__liked">
+            <span class="badge"></span>
+          </div>
+          <div class="menu-button menu-button__bag">
+            <span class="badge badge-display">3</span>
+          </div>
+        </div>
+
+      </div>
+    </header>
+
+    
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

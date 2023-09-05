@@ -1,0 +1,30 @@
+.search-panel {
+    width: 276px;
+    margin-right: 50px;
+}
+
+.search-panel__label {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+
+.search-panel__label img {
+    margin-right: 5px;
+}
+
+.search-panel__label input {
+    width: 0px;
+    border: 0px;
+    border-bottom: 0px solid #292D32;
+
+    outline: none;
+
+    font-size: 15px;
+    transition: width 0.3s;
+}
+
+.search-panel__label input:focus {
+    width: 250px;
+    border-bottom-width: 2px;
+}

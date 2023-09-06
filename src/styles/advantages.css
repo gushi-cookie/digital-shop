@@ -1,0 +1,70 @@
+.advantages {
+    background: 
+    url('/images/advantages_best-quality.svg') 0px 152px / 883px no-repeat,
+    #F2F2F2
+}
+
+
+
+.advantages-wrap {
+    position: relative;
+
+    width: 1400px;
+    height: 962px;
+    margin: 0 auto;    
+}
+
+
+
+.advantages-image {
+    position: absolute;
+    top: 87px;
+    right: 606px;
+
+    width: 874px;
+    height: 492px;
+
+    background: url('/images/advantages_laptop.png') no-repeat;
+}
+
+
+
+.advantages-title {
+    position: absolute;
+
+    top: 183px;
+    right: 165px;
+
+    width: 520px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.advantages-header {
+    color: #292D32;
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 37px;
+}
+
+.advantages-text {
+    color: #838383;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 0;
+    margin-bottom: 41px;
+}
+
+
+.advantages-link {
+    width: 194px;
+}
+
+
+.advantages-cards {
+    display: flex;
+    justify-content: space-between;
+    
+    width: 100%;
+    position: absolute;
+    bottom: 45px;
+}

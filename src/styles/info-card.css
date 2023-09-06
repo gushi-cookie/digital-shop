@@ -1,0 +1,50 @@
+.info-card {
+    position: relative;
+
+    width: 330px;
+    height: 289px;
+    border-radius: 18px;
+
+    background:
+    url('/icons/info-cards/card-curve.svg') top right / 139px no-repeat, 
+    #292D32;
+}
+
+.info-card__icon {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+
+
+.info-card__main {
+    position: absolute;
+    bottom: 35px;
+    left: 30px;
+    
+    width: 300px;
+
+    font-family: 'Euclid Circular A';
+}
+
+.info-card__header {
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 13px;
+    line-height: normal;
+    white-space: pre-line;
+}
+
+.info-card__text {
+    color: #B7B7B7;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: normal;
+    white-space: pre-line;
+}

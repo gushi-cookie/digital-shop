@@ -1,0 +1,119 @@
+.best-products {
+    background-color: #F2F2F2;
+    overflow: hidden;
+    height: 683px;
+}
+
+.best-products__wrap {
+    display: flex;
+    flex-flow: row nowrap;
+
+    position: relative;
+
+    width: 1370px;
+    margin: 0 auto;
+}
+
+
+
+/* Container 1 */
+.best-products__container-1 {
+    position: relative;
+
+    width: 1125px;
+    height: 683px;
+
+    background: url('/public/images/best-products_bg-dell.svg') 0 97px / 767px 202px no-repeat;
+    background-clip: content-box;
+}
+
+.best-products__container-1 .catalog-scroll {
+    position: absolute;
+    bottom: 158px;
+}
+
+
+/* Container 1 - Header */
+.best-products__header {
+    position: absolute;
+    top: 253px;
+    left: 130px;
+
+    display: flex;
+    flex-flow: column nowrap;
+
+    font-family: 'Roboto', sans-serif;
+
+    z-index: 1;
+}
+
+.best-products__header .small-text {
+    color: #838383;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.best-products__header .text {
+    line-height: normal;
+    width: 450px;
+    color: #292D32;
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+
+
+.best-products__header .about {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    width: 55px;
+    text-decoration: none;
+}
+
+.best-products__header .about:hover {
+    text-decoration: underline;
+}
+
+.best-products__header .about:active {
+    color: inherit;
+}
+
+
+.best-products__header .about-text {
+    margin-left: 12px;
+    color: #292D32;
+    font-size: 16px;
+}
+
+
+
+/* Container 2 */
+.best-products__container-2 {
+    width: 1000px;
+    height: 683px;
+
+    position: absolute;
+    right: -755px;
+    margin: 0 auto;
+    
+    background: 
+    url('/public/images/best-products_bg1.png') -160px -205px / 100% no-repeat,
+    #F9F9F9;
+}
+
+
+.best-products__container-2 .offer {
+    position: absolute;
+    top: 321px;
+    left: 40px;
+
+    width: 180px;
+    margin: 0;
+    line-height: 130%;
+
+    color: #292D32;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}

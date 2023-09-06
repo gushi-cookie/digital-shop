@@ -1,0 +1,27 @@
+.catalog-scroll {
+    cursor: pointer;
+    user-select: none;
+}
+
+.catalog-scroll:hover .catalog-scroll__text {
+    text-decoration: underline;
+}
+
+.catalog-scroll__icon {
+    display: inline-block;
+    width: 25px;
+    height: 39px;
+
+    background: url('/public/icons/scroll.svg') no-repeat;
+}
+
+.catalog-scroll__text {
+    display: inline-block;
+
+    color: #838383;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+
+    transform: rotate(-90deg) translate(105px, -72px);
+}

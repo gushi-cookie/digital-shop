@@ -1,5 +1,5 @@
 .search-panel {
-    width: 276px;
+    width: 307px;
     margin-right: 50px;
 }
 
@@ -25,6 +25,6 @@
 }
 
 .search-panel__label input:focus {
-    width: 250px;
+    width: 281px;
     border-bottom-width: 2px;
 }

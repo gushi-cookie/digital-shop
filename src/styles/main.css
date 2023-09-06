@@ -1,12 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 @import url('./header.css');
 @import url('./menu-button.css');
+@import url('./round-button.css');
 @import url('./search-panel.css');
+@import url('./main-carousel.css');
+@import url('./best-products.css');
+@import url('./catalog-scroll.css');
 
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
   font-weight: 400;
 
   font-synthesis: none;

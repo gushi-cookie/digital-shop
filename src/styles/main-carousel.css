@@ -1,0 +1,83 @@
+.main-carousel {
+    position: absolute;
+    top: 74px;
+    right: 60px;
+
+    width: 557px;
+    height: 555px;
+}
+
+
+.main-carousel__slide {
+    
+}
+
+.main-carousel__slide img {
+    width: 557px;
+}
+
+
+.main-carousel__next-arrow {
+    display: inline-block;
+    width: 106px;
+    height: 23px;
+
+    position: absolute;
+    right: -206px;
+    bottom: 115px;
+
+    z-index: 1;
+    cursor: pointer;
+
+    background: url('/public/icons/long-arrow.svg');
+}
+
+
+.main-carousel .slick-dots {
+    position: absolute;
+    bottom: 115px;
+    right: -20px;
+
+    height: 22.9px;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+
+.main-carousel .slick-dots li {
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+.main-carousel .slick-dots li:last-child {
+    margin-right: 0;
+}
+
+
+.main-carousel .slick-dots button {
+    display: inline-block;
+
+    font-size: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 20px;
+
+    box-sizing: content-box;
+    width: 5px;
+    height: 5px;
+
+    cursor: pointer;
+    background-color: #D0D0D0;
+}
+
+.main-carousel .slick-active button {
+    width: 9px;
+    height: 9px;
+    
+    background-color: #292D32;
+}

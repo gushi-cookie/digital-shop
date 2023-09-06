@@ -1,0 +1,19 @@
+.round-button {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    background-color: #33A9FF;
+}
+
+.round-button::after {
+    content: '';
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    background: url('/public/icons/arrow.svg') center no-repeat;
+}
+
+.round-button__grey {
+
+}

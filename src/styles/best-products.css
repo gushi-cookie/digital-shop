@@ -62,29 +62,8 @@
     margin-bottom: 60px;
 }
 
-
 .best-products__header .about {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    user-select: none;
-    width: 55px;
-    text-decoration: none;
-}
-
-.best-products__header .about:hover {
-    text-decoration: underline;
-}
-
-.best-products__header .about:active {
-    color: inherit;
-}
-
-
-.best-products__header .about-text {
-    margin-left: 12px;
-    color: #292D32;
-    font-size: 16px;
+    width: 150px;
 }
 
 

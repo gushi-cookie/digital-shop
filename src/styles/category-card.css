@@ -1,0 +1,62 @@
+.category-card {
+    height: 371px;
+
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+
+    background-color: #F2F2F2;
+}
+
+.category-card__wrap {
+    display: block;
+
+    position: relative;
+    width: 440px;
+    height: 371px;
+}
+
+.category-card__wrap:hover .category-card__name {
+    text-decoration: underline;
+}
+
+.category-card__number {
+    position: absolute;
+    top: 50px;
+    left: 28px;
+
+    color: #292D32;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.category-card__img {
+    width: 415px;
+
+    position: absolute;
+    top: -15px;
+    right: -15px;
+}
+
+
+
+.category-card__info {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+}
+
+.category-card__stock {
+    color: #838383;
+    font-size: 18px;
+    font-weight: 300;
+    
+    margin-bottom: 5px;
+    line-height: 24px;
+}
+
+.category-card__name {
+    color: #292D32;
+    font-size: 25px;
+    line-height: 37.5px;
+    text-decoration: none;
+}

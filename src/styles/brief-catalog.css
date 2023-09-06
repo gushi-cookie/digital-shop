@@ -1,0 +1,50 @@
+.brief-catalog {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    width: 1400px;
+    height: 822px;
+    margin: 0 auto;
+    padding-top: 164px;
+    padding-bottom: 180px;
+
+    font-family: 'Roboto', sans-serif;
+
+    background-color: #FFF;
+}
+
+.brief-catalog .category-card {
+    
+}
+
+/* Overview card */
+.brief-catalog__overview {
+    width: 440px;
+    height: 371px;
+}
+
+.brief-catalog__header {
+    display: inline-block;
+    color: #292D32;
+    font-size: 50px;
+
+    width: 388px;
+    line-height: 50px;
+    margin-bottom: 29px;
+}
+
+.brief-catalog__text {
+    color: #838383;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+
+    width: 372px;
+    margin: 0;
+    margin-bottom: 46px;
+}
+
+.brief-catalog__link {
+    width: 140px;
+}

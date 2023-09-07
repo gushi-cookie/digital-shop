@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
 @import url('./header.css');
 @import url('./info-card.css');
+@import url('./news-card.css');
 @import url('./advantages.css');
 @import url('./menu-button.css');
+@import url('./latest-news.css');
 @import url('./round-button.css');
 @import url('./search-panel.css');
 @import url('./brief-catalog.css');

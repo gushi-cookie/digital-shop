@@ -5,6 +5,7 @@ import 'slick-carousel/slick/slick.js';
 import './styles/main.css';
 import CategoryCard, { CategoryCardProps } from './components/category-card';
 import InfoCard, { InfoCardProps } from './components/info-card';
+import NewsCard, { NewsCardProps } from './components/news-card';
 
 
 
@@ -97,3 +98,57 @@ infoCardsData.forEach(data => {
 });
 
 $('.advantages-cards').append(infoCards);
+
+
+
+const newsCardsData: NewsCardProps[] = [
+    {
+        title: 'GE использует технологии Dell',
+        text: 'Вы можете посмотреть ещё больше интересных',
+        link: '#',
+        imageSrc: '/images/news/card1.png',
+        date: new Date('11 sep 2023'),
+    },
+    {
+        title: 'GE использует технологии Dell',
+        text: 'Вы можете посмотреть ещё больше интересных',
+        link: '#',
+        imageSrc: '/images/news/card2.png',
+        date: new Date('27 jan 2023'),
+    },
+    {
+        title: 'GE использует технологии Dell',
+        text: 'Вы можете посмотреть ещё больше интересных',
+        link: '#',
+        imageSrc: '/images/news/card3.png',
+        date: new Date('15 march 2023'),
+    },
+    {
+        title: 'GE использует технологии Dell',
+        text: 'Вы можете посмотреть ещё больше интересных',
+        link: '#',
+        imageSrc: '/images/news/card4.png',
+        date: new Date('11 sep 2023'),
+    },
+    {
+        title: 'GE использует технологии Dell',
+        text: 'Вы можете посмотреть ещё больше интересных',
+        link: '#',
+        imageSrc: '/images/news/card5.png',
+        date: new Date('24 feb 2023'),
+    },
+    {
+        title: 'GE использует технологии Dell',
+        text: 'Вы можете посмотреть ещё больше интересных',
+        link: '#',
+        imageSrc: '/images/news/card6.png',
+        date: new Date('2023-09-23'),
+    },
+];
+
+const newsCards = new Array<HTMLElement>();
+newsCardsData.forEach(data => {
+    newsCards.push(NewsCard(data));
+});
+
+$('.latest-news__cards').append(newsCards);

@@ -1,0 +1,139 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 40px;
+
+    font-family: 'Roboto', sans-serif;
+
+    background: 
+    url('/images/footer_bg-dell.svg') right -36px center  / 515px no-repeat,
+    #FFF;
+}
+
+.footer__wrap {
+    position: relative;
+
+    width: 1400px;
+    height: 338px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.footer__logo {
+    position: absolute;
+    top: 29px;
+    left: 0;
+
+    display: block;
+    width: 112px;
+    height: 112px;
+
+    background-image: url('/images/logo.png');
+    background-size: 100%;
+}
+
+.footer__links {
+    position: absolute;
+    left: 300px;
+
+    display: flex;
+}
+
+.footer__line {
+    position: absolute;
+    top: 239px;
+
+    width: 100%;
+    height: 1px;
+
+    background-color: #E5E5E5;
+}
+
+
+/* Nav list */
+.footer__nav {
+    margin-right: 180px;
+}
+
+.footer__nav:last-child {
+    margin-right: 0;
+}
+
+.footer__nav-heading {
+    color: #292D32;
+    font-size: 25px;
+
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+.footer__nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer__nav-item {
+    margin-bottom: 10px;
+}
+
+.footer__nav-link {
+    color: #292D32;
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+
+
+.footer__contacts {
+    position: absolute;
+    bottom: 0;
+
+    display: flex;
+    width: 100%;
+    
+    align-items: center;
+}
+
+.footer__socials {
+    display: flex;
+    margin-left: auto;
+}
+
+.footer__socials > * {
+    width: 38px;
+    height: 38px;
+}
+
+.footer__fb-link {
+    margin-right: 18px;
+    background-image: url('/icons/facebook.svg');
+}
+
+.footer__wa-link {
+    background-image: url('/icons/whatsapp.svg');
+}
+
+
+/* Contact */
+.footer__contact {
+    margin-right: 153px;
+}
+
+.footer__contact:nth-child(3) {
+    margin-right: 0;
+}
+
+.footer__contact-heading {
+    color: #838383;
+    font-size: 16px;
+    
+    line-height: 21px;
+    margin-bottom: 11px;
+}
+
+.footer__contact-text {
+    color: #292D32;
+    font-size: 18px;
+    line-height: 27px;
+}

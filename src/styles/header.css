@@ -29,11 +29,14 @@
 
 
 .header__logo {
+    width: 70px;
+    height: 70px;
     margin-right: 60px;
 }
 
 .header__logo img {
     display: block;
+    width: 100%;
 }
 
 

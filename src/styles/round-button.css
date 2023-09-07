@@ -11,7 +11,7 @@
     color: #292D32;
 }
 
-.round-button-container:hover {
+.round-button-container:hover .round-button-text {
     text-decoration: underline;
 }
 

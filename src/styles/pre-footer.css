@@ -1,0 +1,34 @@
+.pre-footer {
+    position: relative;
+
+    height: 676px;
+
+    background: 
+    url('/images/pre-footer_out-contacts.svg') bottom 20px left no-repeat,
+    #EEE;
+}
+
+.pre-footer__container {
+    display: flex;
+    margin: 0 auto;
+    width: 1400px;
+    height: 842px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 160px;
+}
+
+.pre-footer__img {
+    position: absolute;
+    top: 151px;
+    left: 493px;
+    z-index: 1;
+    
+    width: 294px;
+    height: 589px;
+
+    background-image: url('/images/pre-footer_phone.png');
+    background-size: 294px;
+}

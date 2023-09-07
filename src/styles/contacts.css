@@ -1,0 +1,115 @@
+.contacts {
+    width: 700px;
+    height: 842px;
+    padding-top: 100px;
+    padding-left: 100px;
+    box-sizing: border-box;
+
+    font-family: 'Roboto', sans-serif;
+
+    border-radius: 20px 0 0 20px;
+    background-color: #F9F9F9;
+}
+
+
+
+.contacts__header {
+    margin-bottom: 53px;
+}
+
+.contacts__title {
+    color: #292D32;
+    font-size: 50px;
+
+    line-height: 50px;
+    margin-bottom: 18px;
+}
+
+.contacts__text {
+    font-size: 16px;
+    color: #838383;
+
+    line-height: 24px;
+}
+
+
+
+.contacts__main {
+    
+}
+
+
+
+.contacts__socials {
+    display: flex;
+}
+
+.contacts__socials > * {
+    display: block;
+    width: 38px;
+    height: 38px;
+}
+
+.contacts__fb-icon {
+    margin-right: 18px;
+    background-image: url('/icons/facebook.svg');
+}
+
+.contacts__wa-icon {
+    background-image: url('/icons/whatsapp.svg');
+}
+
+
+
+/* Contact component */
+.contacts .contact {
+    position: relative;
+
+    height: 98px;
+    padding-left: 55px;
+    margin-bottom: 50px;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.contacts .contact:nth-child(3) {
+    margin-bottom: 60px;
+}
+
+.contacts .contact__icon {
+    position: absolute;
+    top: -7px;
+    left: 0;
+
+    width: 38px;
+    height: 38px;
+
+    background-position: center;
+}
+
+.contacts .location-icon {
+    background-image: url('/icons/location.svg');
+}
+
+.contacts .email-icon {
+    background-image: url('/icons/sms.svg');
+}
+
+.contacts .phone-icon {
+    background-image: url('/icons/call-calling.svg');
+}
+
+
+.contacts .contact__title {
+    color: #838383;
+    font-size: 18px;
+    
+    margin-bottom: 8px;
+}
+
+.contacts .contact__data {
+    color: #292D32;
+    font-size: 22px;
+
+    line-height: 33px;
+}

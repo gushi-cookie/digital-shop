@@ -1,0 +1,102 @@
+.application {
+    width: 700px;
+    height: 842px;
+    padding-top: 100px;
+    padding-left: 130px;
+    box-sizing: border-box;
+    
+    font-family: 'Roboto', sans-serif;
+
+    border-radius: 0 20px 20px 0;
+    background-color: #292D32;
+}
+
+
+
+/* Top text */
+.application__header {
+    margin-bottom: 65px;
+}
+
+.application__title {
+    color: #fff;
+    font-size: 50px;
+
+    line-height: 50px;
+    margin-bottom: 18px;
+}
+
+.application__text {
+    color: #fff;
+    font-size: 16px;
+
+    line-height: 24px;
+}
+
+
+/* Form */
+.application__form {
+    width: 434px;
+}
+
+.application__submit {
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.application__submit .round-button-text {
+    color: #FFF;
+}
+
+
+.application__input-cont {
+    position: relative;
+    margin-bottom: 52px;
+}
+
+.application__input-cont:nth-child(3) {
+    margin-bottom: 57px;
+}
+
+.application__input-label {
+    position: absolute;
+    left: 20px;
+    top: -6px;
+
+    padding-left: 4px;
+    padding-right: 10px;
+
+    user-select: none;
+
+    color: #F2F2F2;
+    font-size: 18px;
+    font-weight: 300;
+    background-color: #292D32;
+}
+
+.application__input {
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    padding: 0 15px;
+
+    color: #F2F2F2;
+    font-size: 125%;
+    
+    outline: none;
+    border-radius: 20px;
+    border: 1.5px solid rgba(242, 242, 242, 0.50);
+    background-color: transparent;
+}
+
+.application__textarea {
+    height: 145px;
+    padding-top: 15px;
+    
+    resize: none;
+}
+
+.application__input:focus {
+    border-color: #F2F2F2;
+}

@@ -43,3 +43,41 @@
     margin-left: 0;
     margin-right: 12px;
 }
+
+
+
+
+@media (max-width: 1100px) {
+    .round-button,
+    .round-button::after {
+        width: 50px;
+        height: 50px;
+    }
+
+    .round-button-text {
+        margin-left: 10px;
+    }
+
+    .round-button-text-left {
+        margin-right: 10px;
+    }
+}
+
+
+
+@media (max-width: 740px) {
+    .round-button,
+    .round-button::after {
+        width: 45px;
+        height: 45px;
+    }
+
+    .round-button-text {
+        margin-left: 15px;
+        font-size: 15px;
+    }
+
+    .round-button-text-left {
+        margin-right: 15px;
+    }
+}

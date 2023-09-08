@@ -1,6 +1,4 @@
 .category-card {
-    height: 371px;
-
     border-radius: 20px;
     font-family: 'Roboto', sans-serif;
 
@@ -59,4 +57,42 @@
     font-size: 25px;
     line-height: 37.5px;
     text-decoration: none;
+}
+
+
+
+
+
+@media (max-width: 960px) {
+    .category-card__wrap {
+        width: 345px;
+        height: 275px;
+    }
+
+    .category-card__number {
+        font-size: 20px;
+        top: 20px;
+        left: 20px;
+    }
+
+    .category-card__img {
+        top: 12px;
+        right: 7px;
+        width: 302px;
+    }
+
+
+    .category-card__info {
+        left: 20px;
+        bottom: 20px;
+    }
+    
+    .category-card__stock {
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+    
+    .category-card__name {
+        font-size: 20px;
+    }
 }

@@ -16,9 +16,8 @@ export default function createElement(props: CategoryCardProps): HTMLDivElement 
             <img class="category-card__img" src="${props.imageSrc}">
         
             <div class="category-card__info">
-                <span class="category-card__stock">${props.inStock} товаров</span>
-                <br>
-                <span class="category-card__name">${props.name}</span>
+                <div class="category-card__stock">${props.inStock} товаров</div>
+                <div class="category-card__name">${props.name}</div>
             </div>
         </a>
     </div>

@@ -9,9 +9,11 @@
 .advantages-wrap {
     position: relative;
 
+    padding-top: 183px;
+    padding-bottom: 46px;
+
     width: 1400px;
-    height: 962px;
-    margin: 0 auto;    
+    margin: 0 auto;
 }
 
 
@@ -19,21 +21,20 @@
 .advantages-image {
     position: absolute;
     top: 87px;
-    right: 606px;
+    left: -80px;
 
     width: 874px;
     height: 492px;
 
     background: url('/images/advantages_laptop.png') no-repeat;
+    background-size: 100%;
 }
 
 
 
 .advantages-title {
-    position: absolute;
-
-    top: 183px;
-    right: 165px;
+    margin-left: 714px;
+    margin-bottom: 180px;
 
     width: 520px;
     font-family: 'Roboto', sans-serif;
@@ -62,9 +63,115 @@
 
 .advantages-cards {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     
     width: 100%;
-    position: absolute;
-    bottom: 45px;
+    margin: 0 auto;
+}
+
+
+
+
+
+@media (max-width: 1600px) {
+    .advantages-image {
+        left: 15px;
+        top: 135px;
+        width: 650px;
+        height: 366px;
+    }
+}
+
+
+
+@media (max-width: 1450px) {
+    .advantages-wrap {
+        width: 100%;
+    }
+
+    .advantages-cards {
+        width: 687px;
+    }
+
+    .advantages-cards .info-card:nth-child(2) {
+        margin-bottom: 27px;
+    }
+}
+
+
+
+
+@media (max-width: 1300px) {
+    .advantages-title {
+        margin-left: 53%;
+    }
+}
+
+
+
+@media (max-width: 1200px) {
+    .advantages-title {
+        margin-left: 180px;
+    }
+
+    .advantages-image {
+        width: 500px;
+        height: 282px;
+
+        left: 300px;
+        top: 320px;
+    }
+}
+
+
+
+
+@media (max-width: 840px) {
+    .advantages {
+        background-size: 335px;
+        background-position: top 393px left 14px;
+    }
+
+    .advantages-image {
+        top: 295px;
+        left: 78px;
+        width: 345px;
+        height: 194px;
+    }
+
+    .advantages-title {
+        margin-left: 15px;
+        margin-bottom: 190px;
+        width: 336px;
+    }
+
+    .advantages-header {
+        width: auto;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .advantages-text {
+        width: auto;
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    .advantages-wrap {
+        padding-top: 100px;
+        padding-bottom: 115px;
+    }
+
+    .advantages-cards {
+        width: 345px;
+    }
+
+    .advantages-cards .info-card {
+        margin-bottom: 20px;
+    }
+
+    .advantages-cards .info-card:last-child {
+        margin-bottom: 0px;
+    }
 }

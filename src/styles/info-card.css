@@ -38,7 +38,6 @@
     font-weight: 700;
     margin-bottom: 13px;
     line-height: normal;
-    white-space: pre-line;
 }
 
 .info-card__text {
@@ -46,5 +45,112 @@
     font-size: 16px;
     font-weight: 300;
     line-height: normal;
-    white-space: pre-line;
+}
+
+
+
+.info-card:nth-child(1) .info-card__header {
+    width: 205px;
+}
+
+.info-card:nth-child(2) .info-card__header {
+    width: 276px;
+}
+
+.info-card:nth-child(3) .info-card__header {
+    width: 278px;
+}
+
+.info-card:nth-child(4) .info-card__header {
+    width: 263px;
+}
+
+
+.info-card:nth-child(1) .info-card__text {
+    width: 276px;
+}
+
+.info-card:nth-child(2) .info-card__text {
+    width: 276px;
+}
+
+.info-card:nth-child(3) .info-card__text {
+    width: 270px;
+}
+
+.info-card:nth-child(4) .info-card__text {
+    width: 263px;
+}
+
+
+
+
+
+
+@media (max-width: 840px) {
+    .info-card {
+        width: 345px;
+        height: 214px;
+
+        background:
+        url('/icons/info-cards/card-curve-lr.svg') top right / 121px no-repeat, 
+        #292D32;
+    }
+    
+    .info-card__main {
+        left: 15px;
+        bottom: 15px;
+    }
+
+    .info-card__header {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .info-card__text {
+        font-size: 16px;
+    }
+
+    .info-card__icon {
+        left: 15px;
+        top: 15px;
+        width: 50px;
+        height: 50px;
+    }
+
+
+
+
+    .info-card:nth-child(1) .info-card__header {
+        width: 211px;
+    }
+    
+    .info-card:nth-child(2) .info-card__header {
+        width: 268px;
+    }
+    
+    .info-card:nth-child(3) .info-card__header {
+        width: 296px;
+    }
+    
+    .info-card:nth-child(4) .info-card__header {
+        width: 305px;
+    }
+    
+    
+    .info-card:nth-child(1) .info-card__text {
+        width: 280px;
+    }
+    
+    .info-card:nth-child(2) .info-card__text {
+        width: 276px;
+    }
+    
+    .info-card:nth-child(3) .info-card__text {
+        width: 270px;
+    }
+    
+    .info-card:nth-child(4) .info-card__text {
+        width: 263px;
+    }
 }
